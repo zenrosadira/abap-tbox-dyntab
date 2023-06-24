@@ -128,7 +128,7 @@ DATA(rows_cond) = dyntab->read_with_condition( `DEPTIME <= '150000' AND FLTYPE =
 " Get a subtable with selected columns
 DATA(subtab) = dyntab->get_subtable( VALUE string_table( ( `CONNID` ) ( `CARRID` ) ) ).
 
-" Get a subtable with a unique selected columns
+" Get a subtable with a unique selected column
 DATA(connid_column) = dyntab->pick_column( `CONNID` ).
 
 " Other functions
