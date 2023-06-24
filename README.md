@@ -122,7 +122,7 @@ dyntab->append_lines( t_spfli ).
 
 " Read single row or lines
 DATA(row_no_42) = dyntab->read_index( 42 ).
-DATA(row_sel) = dyntab->read_with_keys( VALUE #( ( field = `CONNID` value = `JL` ) ) ).
+DATA(row_sel)   = dyntab->read_with_keys( VALUE #( ( field = `CONNID` value = `JL` ) ) ).
 DATA(rows_cond) = dyntab->read_with_condition( `DEPTIME <= '150000' AND FLTYPE = abap_true` ).
 
 " Get a subtable with selected columns
