@@ -1,10 +1,12 @@
 # Dynamic Table
 
-This is a utility ABAP class that can me helpful to manage and handle dynamic tables. 
+This is a utility ABAP class that can be helpful to manage and handle dynamic tables. 
+
 It enables you to create dynamic tables easily, transpose tables by reversing rows and columns, and interact with dynamically created tables to extract rows or columns.
 
 ## Requirement
 ABAP 7.40+
+
 ☁️ Cloud Ready
 
 ## Quick Usage
