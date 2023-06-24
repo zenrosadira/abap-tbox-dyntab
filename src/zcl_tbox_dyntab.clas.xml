@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_TBOX_DYNTAB</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Dynamic Table</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_COLUMN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add a column</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_INDEX_COLUMN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add new column with indexes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>APPEND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Append new row using a structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>APPEND_LINES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Append new rows using a table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>APPEND_REF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Append new row using a reference structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_COLUMN_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change a column type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clear the table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>COUNT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the number of rows</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_BY_TRANSPOSITION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new instance by transposition</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_EMPTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new instance with empty catalog</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_FROM_CATALOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new instance from a catalog</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_FROM_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new instance from an existent table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DEL_COLUMN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete a column</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DETRANSPOSE_STRUCTURE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create a transposed versoin of a structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DETRANSPOSE_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get a table from its transposed version</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXTEND_CATALOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Extend the catalog with new columns</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXTEND_WITH_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Extend table horizontally</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get a reference to the main table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CATALOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get table catalog</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SUBTABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get a subtable with selected columns</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_INITIAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check if table is initial</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PICK_COLUMN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get a selected column (as a table with one-component line)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_INDEX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the row at some index</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_WITH_CONDITION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the rows satisfying a condition</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_WITH_KEYS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the row identified by key-value pair tables</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TRANSPOSE_STRUCTURE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get a structure from its transposed version</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TRANSPOSE_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create a transposed version of a table</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_COLUMN_TYPE</CMPNAME>
+     <SCONAME>R</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>dynaimc table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_COLUMN_TYPE</CMPNAME>
+     <SCONAME>TYPE_REF</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Runtime Type Services</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
