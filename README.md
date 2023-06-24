@@ -123,17 +123,20 @@ dyntab->append_lines( t_spfli ).
 " Read single row or lines
 DATA(row_no_42) = dyntab->read_index( 42 ).
 DATA(row_sel) = dyntab->read_with_keys( VALUE #( ( field = `CONNID` value = `JL` ) ) ).
-DATA(rows_cond) = dyntba->read_with_condition( `DEPTIME <= '150000` AND FLTYPE = abap_true` ).
+DATA(rows_cond) = dyntba->read_with_condition( `DEPTIME <= '150000' AND FLTYPE = abap_true` ).
 
 " Get a subtable with selected columns
 DATA(subtab) = dyntab->get_subtable( VALUE string_table( ( `CONNID` ) ( `CARRID` ) ) ).
 
 " Get a subtable with a unique selected columns
-DATA(column) = dyntab->pick_column( `CONNID` ).
+DATA(connid_column) = dyntab->pick_column( `CONNID` ).
 
 " Other functions
-dyntab->add_index_column( ). " Add new column (called "_INDEX") with row indexes)
+dyntab->add_index_column( ). " Add new column (called _INDEX) with row indexes
 dyntab->clear( ). " Clear internal table
 DATA(lines) = dyntab->count( ). " Return lines number of internal table
-DATA(init) = dyntab->is_initial( ). " Return true if internal table is initial
+DATA(init)  = dyntab->is_initial( ). " Return true if internal table is initial
 ```
+
+## Installation
+Install this project using [abapGit](https://abapgit.org/) ![abapGit](https://docs.abapgit.org/img/favicon.png)
