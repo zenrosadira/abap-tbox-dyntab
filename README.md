@@ -12,7 +12,7 @@ ABAP 7.40+
 ## Quick Usage
 
 ### Create a table by transposition
-Suppose you have a table variable with fields `ASSET [C(12)] | MONTH [N(2)] | VALUE [P(10) DEC 2]`
+Suppose you have a table variable `t_assets` with fields `ASSET [C(12)] | MONTH [N(2)] | VALUE [P(10) DEC 2]`
 | ASSET | MONTH | VALUE |
 | -- | -- | -- |
 | 1 | 02 | 130.00 |
