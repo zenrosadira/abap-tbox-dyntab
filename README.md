@@ -138,5 +138,9 @@ DATA(lines) = dyntab->count( ). " Return lines number of internal table
 DATA(init)  = dyntab->is_initial( ). " Return true if internal table is initial
 ```
 
+## Use Case Example
+IDOC data segments explorer
+![](docs/idoc_dyn.gif)
+
 ## Installation
 Install this project using [abapGit](https://abapgit.org/) ![abapGit](https://docs.abapgit.org/img/favicon.png)
